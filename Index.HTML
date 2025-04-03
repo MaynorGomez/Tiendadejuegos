@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Videojuegos Honduras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .producto {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+        }
+        .producto img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Videojuegos Honduras</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="catalogo">
+            <h2>Catálogo de Videojuegos</h2>
+            <div class="producto">
+                <img src="videojuego1.jpg" alt="Videojuego 1">
+                <h3>Juego Épico</h3>
+                <p>LPS. 1,500</p>
+                <button>Añadir al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="videojuego2.jpg" alt="Videojuego 2">
+                <h3>Juego de Aventura</h3>
+                <p>LPS. 1,200</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </section>
+        <section id="ofertas">
+            <h2>Ofertas Especiales</h2>
+            <p>¡Grandes descuentos en juegos seleccionados!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Tienda de Videojuegos Honduras. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
